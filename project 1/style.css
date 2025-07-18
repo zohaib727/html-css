@@ -30,4 +30,21 @@
 
 .form-container{
     display: flex;
+    height: 100px;
+}
+
+.form-control{
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+}
+
+#first-name{
+    margin-bottom: 40px;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    margin-right: 180px;
 }

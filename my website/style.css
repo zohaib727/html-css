@@ -1,0 +1,46 @@
+.navbar {
+    background-color:#0089b7;
+    height: 70px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    color: black;
+        justify-content: space-around;
+        
+}
+
+body{
+    background-color: #003d62;
+}
+
+h1{
+    margin-right: 230px;
+    justify-content: end;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+
+h1:hover{
+    color:orange;
+}
+
+a:hover{
+    color: orange;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+p {
+    letter-spacing: 1.8px;
+    font-size: 15px;
+
+}
