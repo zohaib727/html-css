@@ -81,4 +81,12 @@ footer {
 
 a {
     margin-left: 450px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+h6{
+    font-size: 15px;
+    position:fixed;
+    margin-right: 1px;
 }

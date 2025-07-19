@@ -1,52 +1,9 @@
-*{
+* {
     margin: 0;
 }
 
-header{
-    position: sticky;
-}
 
-.navbar {
-    background-color:#0089b7;
-    height: 70px;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    color: black;
-        justify-content: space-around;
-        width: 1350px;
-        
-}
-
-body{
-    background-color: #003d62;
-}
-
-
-
-a {
-    text-decoration: none;
-    color: black;
-    font-size: 25px;
-    margin-right: 20px;
-    text-transform: capitalize;
-}
-
-h1:hover{
-    color:orange;
-}
-
-a:hover{
-    color: orange;
-}
-
-.logo-a{
-    font-size: 40px;
-}
-
-
- /* main page */
- img {
+img {
     width: 1341px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,7 +20,6 @@ h2 {
     font-weight: 300;
     color: white;
     text-align: center;
-    margin-bottom: 5px;
 }
 
 .third-section {
@@ -92,7 +48,6 @@ h1 {
 h5 {
     text-align: center;
     font-size: 25px;
-    margin-bottom: 7px;
 }
 
 .About {
@@ -154,7 +109,7 @@ p{
 }
 
 footer{
-    height: 350px;
+    height: 50px;
     background-color:black;
     color: white;
 }
@@ -162,19 +117,4 @@ footer{
 h6{
     font-size: 17px;
     text-align: center;
-    margin-top: 24px;
-}
-
-h4{
-    text-align: start;
-}
-
-input{
-    height: 30px;
-    width: 300px;
-}
-
-button{
-    background-color: black;
-    color: white;
 }
