@@ -105,3 +105,14 @@ body {
         display: none;
     }
 }
+
+.button input{
+    width: 100%;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    align-self: center;
+    border: none;
+    padding:10px 0px ;
+    color: white;
+     font-size: 20px;
+     font-weight: 500;
+}

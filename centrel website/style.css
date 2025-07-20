@@ -1,4 +1,119 @@
+/* header style */
+*{
+    margin: 0;
+    padding: 0;
+}
 .navbar{
     height: 70px;
     background-color: red;
+    display: flex;
+    justify-content: space-between;
 }
+
+img{
+    height: 40px;
+    padding: 10px;
+}
+
+.div-2{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.home{
+    height: 34px;
+    width: 70px;
+        padding-top: 25px;
+        border: 3px solid red;
+        text-align: center;
+}
+
+.politics{
+    height: 34px;
+    width: 70px;
+        padding-top: 25px;
+        border: 3px solid red;
+        text-align: center;
+}
+
+.news{
+    height: 34px;
+    width: 70px;
+        padding-top: 25px;
+        border: 3px solid red;
+        text-align: center;
+}
+
+.business{
+    height: 34px;
+    width: 70px;
+        padding-top: 25px;
+        border: 3px solid red;
+        text-align: center;
+}
+
+.sports{
+    height: 34px;
+    width: 70px;
+        padding-top: 25px;
+        border: 3px solid red;
+        text-align: center;
+}
+
+.health{
+    height: 34px;
+    width: 70px;
+        padding-top: 25px;
+        border: 3px solid red;
+        text-align: center;
+}
+
+.opinion{
+    height: 34px;
+    width: 70px;
+        padding-top: 25px;
+        border: 3px solid red;
+        text-align: center;
+}
+
+a:hover{
+     background-color: white;
+     color: red;
+}
+
+.div-3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button{
+    width: 100px;
+    height: 38px;
+    margin-left: 15px;
+    margin-right: 26px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: red;
+    text-align: center;
+}
+
+button:hover{
+    color: red;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+/* main content */
+
