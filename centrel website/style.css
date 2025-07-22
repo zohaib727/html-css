@@ -8,6 +8,8 @@
     height: 70px;
     display: flex;
     justify-content: space-between;
+    width: 1330px;
+    margin: auto;
 }
 
 header {
@@ -45,7 +47,7 @@ a {
 
 a:hover {
     background-color: white;
-    color: red;
+    color: rgb(231, 19, 26)
 }
 
 .div-3 {
@@ -77,23 +79,23 @@ button:hover {
 /* main content */
 
 .profits {
-    color: black;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-family: "";
 }
+
 
 
 .div-section-1 {
     width: 300px;
-    border-right: 1px solid grey;
+    border-right: 1px solid #dedede;
 
     .first-main {
-    border-bottom: 1px solid grey;
-    margin-left: 12px;
-    margin-right: 12px;
-    margin-top: 15px;
-    padding: 8px;
-}
+        border-bottom: 1px solid #dedede;
+        margin-left: 12px;
+        margin-right: 12px;
+        padding-bottom: 10px;
+        padding: 8px;
+    }
 }
 
 
@@ -104,14 +106,26 @@ button:hover {
 }
 
 .image-title {
-    font-size: 25px;
+    font-size: 27px;
     color: black;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
+    display: block;
+    font-family: "Alegreya";
+    line-height: 36px;
 }
 
 .top-stories {
     display: flex;
+
+    .primary {
+        border-bottom: 1px solid #dedede;
+        margin-bottom: 100px;
+
+        h2 {
+    text-align: center;
+}
+    }
 }
 
 .image-3 {
@@ -130,14 +144,27 @@ h3 {
 .div-section-3 {
     width: 350px;
     text-align: justify;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #dedede;
 
     .profits {
-        display: block;
-        padding: 12px;
-        border-bottom: 1px solid grey;
-        text-align: justify;
+        border-bottom: 1px solid #dedede;
+        padding-bottom: 11px;
     }
+
+
+
+}
+
+.profits {
+    display: block;
+    padding: 100px;
+    text-align: justify;
+    margin: 12px;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Alegreya";
+    color: black;
+    font-weight: 500;
 }
 
 
@@ -145,27 +172,27 @@ h3 {
 
 .div-section-2 {
     width: 400px;
+    border-right: 1px solid #dedede;
+    padding-right: 12px;
+    padding-left: 14px;
 
     .image-2 {
         height: 250px;
         width: 400px;
+        padding-right: 12px;
     }
 }
 
-hr{
+hr {
     width: 300px;
     margin-top: 18px;
 }
 
-.all-three-div{
+.all-three-div {
     display: flex;
 }
 
-h2{
-    text-align: center;
-}
-
-.primary{
-    border-bottom: 1px solid grey;
-    margin-bottom: 90px;
+.image-4{
+    width: 250px;
+    height: 180px;
 }
