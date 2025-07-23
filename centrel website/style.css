@@ -121,6 +121,9 @@ button:hover {
     .primary {
         border-bottom: 1px solid #dedede;
         margin-bottom: 100px;
+        .all-three-div {
+    display: flex;
+}
 
         h2 {
     text-align: center;
@@ -188,11 +191,66 @@ hr {
     margin-top: 18px;
 }
 
-.all-three-div {
-    display: flex;
+
+
+
+
+.video-section {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.image-4{
-    width: 250px;
-    height: 180px;
+.video-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.video-card {
+  width: 220px;
+  flex-shrink: 0;
+}
+
+.thumbnail {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+  width: 150px;
+}
+
+.thumbnail img {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+  height: 150px;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.video-card h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+  color: black;
+}
+
+.date {
+  font-size: 12px;
+  color: #777;
 }
