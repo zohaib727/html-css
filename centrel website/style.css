@@ -230,7 +230,8 @@ header {
             .thumbnail {
                 position: relative;
                 border-right: 1px solid #dedede;
-                img{
+
+                img {
                     border-right: 1px solid #dedede;
                     padding-right: 8px;
                 }
@@ -283,70 +284,107 @@ header {
     }
 }
 
-.image-div{
+.image-div {
     padding-top: 80px;
     padding-bottom: 50px;
 
-    img{
+    img {
         padding-left: 150px;
         border-bottom: 2px solid gray;
     }
 }
 
-.pull-bus{
-    .politics-section{
+.pull-bus {
+    .politics-section {
+        display: flex;
 
-        
-        .politics-item{
-        .brexit{
-            display: flex;
+        .politics-item {
+            .brexit {
+                display: flex;
 
-            .image-line{
-                width: 300px;
-            }
+                .image-line {
+                    width: 300px;
+                }
 
-            .para-1{
-                width: 320px;
+                .para-1 {
+                    width: 320px;
+                    padding-left: 10px;
 
-                .info{
-                    padding: 12px;
-                    border-bottom: 1px solid #dedede;
+                    .info {
+                        padding: 12px;
+                        border-bottom: 1px solid #dedede;
+                    }
                 }
             }
-        }
 
 
-            img{
-            height: 240px;
-            width: 300px;
-        }
+            img {
+                height: 240px;
+                width: 300px;
+                border-right: 1px solid #dedede;
+                padding-right: 10px;
+            }
 
-        h2{
-            font-size: 18px;
-            font-weight: 500;
-            font-family: "Alegreya";
-        }
+            h2 {
+                font-size: 18px;
+                font-weight: 500;
+                font-family: "Alegreya";
 
-        h2:hover{
-            color: red;
-        }
+            }
 
-        a{
-        text-decoration: none;
-        color: black;
-        }
+            h2:hover {
+                color: red;
+            }
 
-        p{
-            padding-top: 10px;
-            font-size: 12px;
-        }
+            a {
+                text-decoration: none;
+                color: black;
+            }
 
-        a:hover{
-            color: red;
-        }
+            p {
+                padding-top: 10px;
+                font-size: 12px;
+            }
+
+            a:hover {
+                color: red;
+            }
+
+            .para-2 {
+                width: 200px;
+
+                .item {
+                    padding: 12px;
+                    border-bottom: 1px solid #dedede;
+                    border-right: 1px solid #dedede;   
+                }
+            }
+
+            .para-3 {
+                width: 200px;
+
+                .item {
+                    padding: 12px;
+                    border-bottom: 1px solid #dedede;
+
+                }
+            }
+
+
+            .image-line-2 {
+                width: 200px;
+
+                img {
+                    width: 200px;
+                    height: 230px;
+                }
+
+                .image-line {
+                    width: 200px;
+                }
+
+
+            }
         }
     }
 }
-
-
-
