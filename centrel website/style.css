@@ -7,7 +7,7 @@
 
 
 header {
-    background-color: red;
+    background-color: rgb(230, 4, 4);
     margin: auto;
     margin-top: 0;
 
@@ -26,7 +26,7 @@ header {
             align-items: center;
 
             .home {
-                border: 3px solid red;
+                border: 3px solid rgb(230, 4, 4);
                 text-align: center;
                 padding: 15px;
             }
@@ -58,12 +58,12 @@ header {
                 align-items: center;
                 padding: 10px;
                 border: 2px solid white;
-                background-color: red;
+                background-color:  rgb(230, 4, 4);
                 text-align: center;
             }
 
             button:hover {
-                color: red;
+                color:  rgb(230, 4, 4);
                 background-color: white;
                 font-size: 15px;
                 font-weight: 600;
@@ -297,8 +297,19 @@ header {
 .pull-bus {
     .politics-section {
         display: flex;
+        border-bottom: 2px solid #dedede;
+        padding-bottom: 40px;
 
         .politics-item {
+
+            .pull {
+                margin-bottom: 12px;
+                font-size: 24px;
+                font-family: "Alegreya";
+                font-weight: 700;
+                color: red;
+            }
+
             .brexit {
                 display: flex;
 
@@ -351,17 +362,17 @@ header {
             }
 
             .para-2 {
-                width: 200px;
+                width: 250px;
 
                 .item {
                     padding: 12px;
                     border-bottom: 1px solid #dedede;
-                    border-right: 1px solid #dedede;   
+                    border-right: 1px solid #dedede;
                 }
             }
 
             .para-3 {
-                width: 200px;
+                width: 250px;
 
                 .item {
                     padding: 12px;
@@ -384,6 +395,271 @@ header {
                 }
 
 
+            }
+        }
+    }
+}
+
+.entertainment {
+    width: 1300px;
+    margin: auto;
+
+    .enter {
+        margin-bottom: 12px;
+    }
+
+    .enter-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+        border-bottom: 2px solid #dedede;
+    }
+
+    .buffy {
+        border-right: 1px solid #dedede;
+        padding-right: 5px;
+
+        img {
+            width: 200px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            width: 200px;
+            display: block;
+            line-height: 1.4;
+
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}
+
+
+.soledad {
+    margin-top: 20px;
+    border-bottom: 2px solid #dedede;
+
+    .segment {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+        .banning {
+            a {
+                display: block;
+                text-decoration: none;
+                color: black;
+                width: 290px;
+                font-size: 18px;
+                line-height: 25px;
+                font-weight: 400;
+                font-family: "Alegreya";
+                border-bottom: 1px solid #dedede;
+                padding: 12px;
+
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: red;
+        }
+
+        img {
+            height: 190px;
+            width: 300px;
+            margin-left: 10px;
+        }
+    }
+}
+
+span {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: serif;
+}
+
+.news {
+    height: 100px;
+    width: 110px;
+}
+
+.main {
+    display: flex;
+    width: 120px;
+    max-width: 335px;
+    gap: 14px;
+    padding: 10px;
+}
+
+.main-div {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr-main-div {
+    width: 1140px;
+}
+
+h3 {
+    width: 200px;
+}
+
+.launder {
+    margin-bottom: 12px;
+}
+
+/* footer */
+
+footer {
+    height: 300px;
+    background-color: black;
+    color: white;
+    text-transform: none;
+}
+
+b {
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+
+
+li {
+    text-transform: none;
+}
+
+.div-one {
+    margin-left: 40px;
+}
+
+.kot:hover {
+    background-color: red;
+}
+
+.date:hover {
+    color: red;
+}
+
+.main-one-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: rgb(128, 128, 128);
+    height: 60px;
+    align-items: center;
+}
+
+.date {
+    font-size: 18px;
+    padding-bottom: 14px;
+}
+
+
+
+
+
+/* next page */
+
+.first-heading {
+
+    h3 {
+        color: black;
+        width: 100%;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 75px;
+        margin-left: -45px;
+    }
+}
+
+
+
+.bit {
+
+    .public {
+        margin-top: 15px;
+        margin-left: 12px;
+        border-bottom: 1px solid #dedede;
+        padding-bottom: 20px;
+        display: flex;
+        width: 865px;
+
+        .image {
+            img {
+                width: 412.08px;
+                height: 274.72px;
+            }
+        }
+
+        .data {
+            padding: 12px;
+
+            h1 {
+                font-weight: 600;
+                font-family: "Alegreya";
+                font-size: 27px;
+                line-height: 36px;
+                padding-bottom: 12px;
+
+                &:hover {
+                    color: #888;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: rgb(184, 0, 0);
+                padding-bottom: 20px;
+                display: block;
+            }
+
+            p {
+                font-size: 16px;
+                color: #313131;
+                line-height: 29px;
+                font-family: "Alegreya";
+                padding-top: 15px;
+            }
+        }
+    }
+
+    .charset {
+
+        img {
+            height: 250px;
+            width: 300px;
+            margin-bottom: 30px;
+        }
+
+        h4 {
+            padding: 10px;
+            border-bottom: 1px solid black;
+            border-top: 1px solid black;
+            border-left: 5px solid black;
+            border-right: 1px solid black;
+            text-align: center;
+            width: 270px;
+        }
+
+        .anchor {
+            display: flex;
+            text-decoration: none;
+            color: black;
+
+            &:hover {
+                color: red;
             }
         }
     }
