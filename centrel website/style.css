@@ -58,12 +58,12 @@ header {
                 align-items: center;
                 padding: 10px;
                 border: 2px solid white;
-                background-color:  rgb(230, 4, 4);
+                background-color: rgb(230, 4, 4);
                 text-align: center;
             }
 
             button:hover {
-                color:  rgb(230, 4, 4);
+                color: rgb(230, 4, 4);
                 background-color: white;
                 font-size: 15px;
                 font-weight: 600;
@@ -587,13 +587,19 @@ li {
 
 
 .bit {
+    display: flex;
+    justify-content: space-between;
 
+    .section-1{
+        width: 900px;
+    }
     .public {
         margin-top: 15px;
         margin-left: 12px;
         border-bottom: 1px solid #dedede;
         padding-bottom: 20px;
         display: flex;
+        
         width: 865px;
 
         .image {
@@ -635,32 +641,138 @@ li {
         }
     }
 
-    .charset {
+    .sidbar {
+  width: 370px;
+  position: static;
 
+  .school{
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        display: block;
+        border-bottom: 1px solid #dedede;
+        padding: 12px;
+
+        &:hover{
+            color: #e7131a;
+        }
+    }
+  }
+    h5{
+        font-size: 17px;
+        font-weight: lighter;
+        text-align: center;
+        margin-bottom: 17px;
+        font-family: "Alegreya";
+        margin-top: 30px;
+    }
+  
+  .input{
+   
+
+    .imot{
+        margin-bottom: 12px;
+    }
+
+   input{
+    width: 340px;
+    height: 40px;
+  }
+
+  button{
+    background-color: lightgray;
+    color: black;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    &:hover{
+        background-color: red;
+        color: white;
+    }
+  }
+  }
+
+  
         img {
-            height: 250px;
-            width: 300px;
-            margin-bottom: 30px;
+            width: 360px;
+            padding-bottom: 25px;
         }
 
         h4 {
             padding: 10px;
-            border-bottom: 1px solid black;
+            width: 338px;
+            text-align: center;
             border-top: 1px solid black;
+            border-bottom: 1px solid black;
             border-left: 5px solid black;
             border-right: 1px solid black;
-            text-align: center;
-            width: 270px;
         }
 
-        .anchor {
+        .contact {
             display: flex;
-            text-decoration: none;
-            color: black;
+            margin-left: 0;
 
-            &:hover {
-                color: red;
+            .follow{
+                display: flex;
+                flex-direction: column;
+                margin-left: 50px;
+                line-height: 22px;
+            }
+
+            .half-term{
+                display: flex;
+                flex-direction: column;
+                margin-left: 128px;
+                line-height: 22px;
+            }
+
+            a {
+
+                text-decoration: none;
+                color: #000;
+
+                &:hover {
+                    color: red;
+                }
             }
         }
+
+        .recent-posts {
+            display: flex;
+            border-bottom: 1px solid#dedede;
+            padding: 10px;
+            width: 320px;
+
+            .posts{
+                padding-left: 5px;
+            }
+            img {
+                height: 80px;
+                width: 100px;
+                padding: 0;
+            }
+
+            a{
+                width: 193px;
+                text-decoration: none;
+                color: black;
+                display: block;
+                line-height: 20px;
+
+                &:hover{
+                    color: red;
+                }
+            }
+
+        
+        }
+
+
     }
+
 }
