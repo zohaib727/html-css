@@ -712,7 +712,7 @@ footer {
         img {
             width: 250px;
             padding-top: 15px;
-            padding-left: 20px;
+            padding-left: 100px;
         }
 
         .three-footer-div {
@@ -802,6 +802,8 @@ footer {
         }
     }
 }
+
+/* next page about us */
 
 .about-section {
     padding-top: 25px;
@@ -1392,5 +1394,139 @@ footer {
                 }
             }
         }
+    }
+}
+
+.team-section-5 {
+  position: relative;
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to bottom, #fff, #eee);
+  overflow: hidden;
+  margin: 0;
+
+  .content-box {
+  max-width: 600px;
+  margin: auto;
+  position: absolute;
+  z-index: 100;
+  left: 30%;
+  top: 230px;
+  padding: 30px;
+  background-color: rgb(140, 139, 139);
+}
+
+
+.bottom-left{
+    position: absolute;
+    top: 300px;
+    left: 0;
+}
+
+.bottom-right{
+    position: absolute;
+    top: 300px;
+    right: 0;
+}
+
+.content-box h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+
+
+.divider {
+  width: 40px;
+  height: 3px;
+  background-color: purple;
+  margin: 20px auto;
+}
+
+.content-box:hover .divider{
+    width: 50px;
+  }
+
+.content-box p {
+  color:black;
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+.btn-apply {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: purple;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.btn-apply:hover {
+  background-color: #5a0a8a;
+}
+
+.corner-img {
+  position: absolute;
+  width: 200px;
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 57%, 0 100%, 0% 50%);
+}
+
+.bottom-corner {
+  position: absolute;
+  width: 200px;
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 100%, 0 57%, 0 100%, 0 100%, 0 57%);
+
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 57%, 0 100%, 0% 50%);
+
+}
+
+
+
+  .corner-img-top-right{
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 100% 100%, 0 54%);
+  }
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+.team-image {
+  margin-top: 60px;
+}
+
+.team-image img {
+  height: 500px;
+  position: relative;
+}
+
+}
+
+ /* next page services */
+
+.ser-section-1{
+    
+    .main-2-main-div{
+       display: flex;
+
+       .text-img{
+        background-image: url(./images/cf07ddba-3664-40a6-8682-82860761a4da.png);
+        background-size: cover;
+        img{
+           
+        }
+       }
     }
 }
